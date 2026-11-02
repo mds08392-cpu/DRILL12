@@ -4,11 +4,12 @@ from pico2d import load_image
 class Grass:
     def __init__(self):
         self.image = load_image('grass.png')
-        self.layer = 0
+    def setPos(self,x,y):
+        self.x = x
+        self.y = y
 
-    def draw(self,x,y,layer = 0):
-        self.image.draw(x, y)
-        self.image.draw(layer)
+    def draw(self):
+        self.image.draw(self.x,self.y)
 
     def update(self):
         pass
