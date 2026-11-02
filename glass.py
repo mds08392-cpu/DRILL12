@@ -3,3 +3,6 @@ import game_world
 
 class grass:
     def __init__(self):
+        self.image = load_image('animation_sheet.png')
+        self.layer = 0
+    
