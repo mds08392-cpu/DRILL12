@@ -30,7 +30,7 @@ def reset_world():
     game_world.add_object(grass)
 
 
-def update_worldS():
+def update_world():
     game_world.update()
 
 
