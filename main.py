@@ -29,7 +29,7 @@ def reset_world():
     grass = Grass()
     grass.setPos(400,30)
     grasstwo = Grass()
-    grasstwo.setPos(400,60)
+    grasstwo.setPos(400,20)
     game_world.add_object(grass)
     game_world.add_object(grasstwo,1)
 
